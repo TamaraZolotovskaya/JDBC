@@ -1,4 +1,9 @@
 
+import dao.EmployeeDAO;
+import dao.impl.EmployeeDAOImpl;
+import model.City;
+import model.Employee;
+
 import java.sql.*;
 import java.util.List;
 
@@ -39,7 +44,7 @@ public class Application {
                 System.out.println(employeeLastName);
                 System.out.println(employeeGender);
                 System.out.println("Age: " + employeeAge);
-                System.out.println("City Id: " + employeeCityId);
+                System.out.println("model.City Id: " + employeeCityId);
             }
         }
 
